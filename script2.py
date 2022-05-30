@@ -60,5 +60,7 @@ else:
 # }
 
 ## to use similar function as  `` in JS, use formatting with placeholder %s, %d, %f
-# print() can contain '' followed by %? operator, where ? can be s for string, d for numbers, f for float
-# then followed by something
+# print() can contain '' including a %? operator
+    # where ? can be s for string, d for numbers, f for float
+# then followed by %, and something
+print('Hi %s' % 'name')
